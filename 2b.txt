@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Navigation</title>
+</head>
+    <frameset cols="20%,80%">
+        <frame src="left.html" name="left">
+        <frame src="right.html" name="main">
+    </frameset>
+    <noframes>
+      <body>
+        Your Browser is not compatible
+      </body>
+    </noframes>
+</html>
+
+left.html
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>hyperlinks</title>
+  </head>
+  <body>
+    <h2>AAA Games</h2>
+    <ul>
+      <li>
+        <a href="https://forza.net/horizon" target="main">ForzaHorizon</a>
+      </li>
+      <li>
+        <a
+          href="https://www.unrealengine.com/en-US"target="main">Unreal Engine</a>
+      </li>
+      <li>
+        <a href="https://www.counter-strike.net/" target="main">CounterStrike</a>
+      </li>
+      <li>
+        <a
+          href="https://www.callofduty.com/"target="main">Call of Duty</a>
+      </li>
+      <li>
+        <a
+          href="https://www.halowaypoint.com/"target="main">Halo</a>
+      </li>
+    </ul>
+  </body>
+</html>
+
+right.html
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <p>Contents are displayed here!!</p>
+  </body>
+</html>
