@@ -1,131 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>VishruthVS Resume</title>
-   
+<html>
+<head>
+    <title>Resume</title>
     <style>
-      body {
-        font-family: Arial, sans-serif;
-        color: #333;
-      }
-      h2 {
-        color: #007bff;
-      }
-      h3 {
-        color: #6c757d;
-      }
-      p {
-        line-height: 1.6;
-      }
-      .bold {
-        font-weight: bold;
-      }
-      .italic {
-        font-style: italic;
-      }
-      .section {
-        margin-bottom: 20px;
-      }
-      .skill {
-        margin-bottom: 5px;
-      }
+        h1 {
+            font-size: 50px;
+        }
+        h3 {
+            font-size: 24px;
+        }
+        h4 {
+            color: purple;
+        }
+        img {
+            border-radius: 50%;
+        }
+        .full {
+            width: 100%;
+            margin: 20px;
+            display: grid;
+            grid-template-columns: 2fr 4fr;
+            border: 2px solid black; 
+            padding: 10px; 
+        }
+        .left {
+            position: initial;
+            padding: 20px;
+        }
+        .right {
+            position: initial;
+            padding: 20px;
+        }
     </style>
-  </head>
-  <body>
-    <header>
-      <h1>VishruthVS</h1>
-      <img src="logo.jpg" width="200" alt="logo">
-      <p>
-        <strong>Email:</strong> vishruthvs2003@gmail.com |
-        <strong>Phone:</strong> +91 (123) 456-7890
-      </p>
-      <p><strong>Location:</strong> Mysore, Karnataka</p>
-      <a href="https://github.com/VishruthVS" target="_blank" >Github Profile</a>
-    </header>
+</head>
+<body>
+    <div class="full">
+        <div class="left">
+            <img src="https://img.a.transfermarkt.technology/portrait/big/161056-1700039639.jpg?lm=1" alt="Profile pic" width="50%" height="25%">
+            <h1>Tarun S</h1>
+            <p>
+                Computer Science Student<br>I consider myself a responsible person.
+            </p>
+            <p>
+                <address>Address : VijayNagar<br>Mysore - 570017</address>
+                Contact : +19 8431721911<br>
+                <address>Mail : tarunmys209@gmail.com</address>
+                Github : <a href="https://github.com/TS22003">Github Link:</a>
+            </p>
+            <h3>Skills</h3>
+            <ul>
+                <li>Problem Solving Skill</li>
+                <ul>
+                    <li>C programming</li>
+                    <li>C++ programming</li>
+                    <li>Java programming</li>
+                    <li>Python programming</li>
+                </ul>
+                <li>Web Development</li>
+                <li>Soft skills</li>
+            </ul>
+            <h3>Languages</h3>
+            <ul>
+                <li>English</li>
+                <li>Kannada</li>
+                <li>Hindi</li>
+            </ul>
+        </div>
 
-    <div class="section">
-      <h2>Education</h2>
-      <h3>JSS Science and Technology University, Mysuru</h3>
-      <p>
-        <strong>BE in Computer Science and Technology</strong> | Karnataka,
-        India <strong>MAY 2025</strong>
-      </p>
+        <div class="right">
+            <div>
+                <h3>Education</h3>
+                <h4>JSS SCIENCE AND TECHNOLOGY UNIVERSITY</h4>
+                <p>BE in Computer Science<br>Expected year of Graduation 2025<br></p>
+                <h4>NPSI</h4>
+                <p>Central Board of Secondary Education<br>Passed year: 2021<br></p>
+                <h4>EPS</h4>
+                <p>Central Board of Secondary Education<br>Passed year: 2019<br></p>
+            </div>
+            <div>
+                <h3>Projects</h3>
+                <div>
+                    <h4>Farm Mangement System</h4>
+                    <p>Using HTML, CSS, JS, MySQL & PHP has been developed to override problems prevailing in practicing manual farm systems.</p>
+                </div>
+            </div>
+        </div>
     </div>
-
-    <div class="section">
-      <h2>Experience</h2>
-
-      <h3>Sign-On Chain, FullStack Developer</h3>
-      <p class="italic">July 2023 - Sep 2023</p>
-      <ul>
-        <li>
-          Showcased Sign-On Chain at Web3 Hackfest, enabling property owners to
-          manage digital signatures and document storage via IPFS.
-        </li>
-        <li>
-          Led development efforts and collaborated on integrating blockchain
-          tech for enhanced functionality.
-        </li>
-      </ul>
-      <h3>Trustauthx, Frontend Developer</h3>
-      <p class="italic">April 2023 - May 2023</p>
-      <ul>
-        <li>
-          Led Figma UI/UX design and seamlessly translated them into captivating
-          landing pages.
-        </li>
-        <li>
-          Proficiently blended design and code to create engaging front-end
-          experiences using React and Tailwind CSS.
-        </li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>Skills</h2>
-      <p>
-        <strong>Languages:</strong> JavaScript, TypeScript, C/C++, Java, Git,
-        Dart
-      </p>
-      <p>
-        <strong>Frameworks:</strong> React.js, Node.js, Next.js, Tailwind CSS,
-        Flutter, Vue.js, Prisma, PyTorch
-      </p>
-      <p>
-        <strong>Cloud Services/Platforms:</strong> Cloudflare, AWS (Amazon Web
-        Services), Neon DB, Vercel
-      </p>
-      <p>
-        <strong>Database Management Systems (DBMS):</strong> MongoDB, MySQL,
-        PostgreSQL
-      </p>
-      <p><strong>DevOps/Tools:</strong> Docker</p>
-    </div>
-
-    <div class="section">
-      <h2>Projects</h2>
-      <h3>File Sharing - Lead Developer</h3>
-      <p class="italic">Jan 2024 -</p>
-      <ul>
-        <li>
-          Led the development of a File Sharing Application allowing users to
-          share, edit, save, and delete files online without downloading.
-        </li>
-        <li>
-          Implemented the backend using TypeScript, Docker, and PostgreSQL,
-          ensuring efficient data storage and management.
-        </li>
-        <li>
-          Integrated OAuth 2.0 authentication for secure user login and access
-          control.
-        </li>
-        <li>
-          Designed and developed a responsive frontend interface using modern
-          web technologies for seamless user experience.
-        </li>
-      </ul>
-    </div>
-  </body>
+</body>
 </html>
