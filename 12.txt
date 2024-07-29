@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,7 +20,7 @@
     $username = $_POST['uname'];
     $password = $_POST['pass'];
 
-    /*Initially store some username and password by creating a file login.txt ex: benne,qwe123*/ 
+    /*Initially store some username and password by creating a file login.txt ex: Shreyash,Shreyash1234*/ 
     $file = 'login.txt';
     $users = file($file, FILE_IGNORE_NEW_LINES);
 
@@ -29,8 +28,6 @@
 
     foreach ($users as $user) {
         list($storedUsername, $storedPassword) = explode(',', $user);
-       $storedUsername = trim($storedUsername);
-       $storedPassword = trim($storedPassword);
         if ($username === $storedUsername && $password === $storedPassword) {
             $loginSuccessful = true;
             break;
@@ -49,9 +46,3 @@
 
 </body>
 </html>
-
-
-
-
-
-User1, Pass1
